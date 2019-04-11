@@ -3,7 +3,7 @@
 /* Style the navbar */
 .topnav {
   overflow: hidden;
-  background-color: grey ;
+  background-color: red ;
 }
 
 /* Navbar links */
@@ -12,9 +12,10 @@
   display: block;
   color: black;
   text-align: center;
-  padding: 14px 16px;
+  padding: 40px 40px;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 30px;
+  font-weight: 900;
 }
 
 /* Navbar links on mouse-over */
@@ -25,7 +26,7 @@
 
 /* Active/current link */
 .topnav a.active {
-  background-color: grey;
+  background-color: red;
   color: white;
 }
 
@@ -47,14 +48,17 @@
 /* Style the button inside the input container */
 .topnav .login-container button {
   float: right;
-  padding: 6px;
+  padding: 30px;
   margin-top: 8px;
   margin-right: 16px;
-  background: #ddd;
-  font-size: 17px;
+  background: black;
+  color: white;
+  font-size: 20px;
   border: none;
   cursor: pointer;
+  font-weight: 900;
 }
+
 
 .topnav .login-container button:hover {
   background: #ccc;
@@ -78,7 +82,7 @@
   }
 }
 
-/*      =====================================================       */
+/*      ====================== Register Account ===============================       */
 
 * {box-sizing: border-box}
 
@@ -89,8 +93,21 @@
   margin: 5px 0 22px 0;
   display: inline-block;
   border: none;
-  background: #f1f1f1;
+  background: black;
 }
+
+
+searchBtn {
+  background-color: white;
+  color: black;
+  padding: 4px 6px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 25%;
+  opacity: 0.9;
+}
+
 
 input[type=text]:focus, input[type=password]:focus {
   background-color: #ddd;
@@ -111,6 +128,17 @@ button {
   border: none;
   cursor: pointer;
   width: 100%;
+  opacity: 0.9;
+}
+
+buttonfb {
+  background-color: navy;
+  color: white;
+  padding: 7px 10px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 50%;
   opacity: 0.9;
 }
 
@@ -150,30 +178,27 @@ button:hover {
   }
 }
 
-.form-width{width: 50%
+.form-width{width: 50% 
 }
 
 .flex{display: flex;
-    
 }
 
 
-/*      =====================================================       */
+/*      ============================ Footer =========================       */
 
 /* Footer */
 @import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
-section {
-    padding: 60px 0;
-}
+
 
 section .section-title {
     text-align: center;
-    color: grey;
+    color: red;
     margin-bottom: 50px;
     text-transform: uppercase;
 }
 #footer {
-    background:grey !important;
+    background:red !important;
 }
 #footer h5{
 	padding-left: 10px;
@@ -258,40 +283,7 @@ section .section-title {
     color: white;
   }
 
+/*      ============================ About =========================       */
 
 
-/*========== Contact Form=============*/
 
-  /* Style inputs with type="text", select elements and textareas */
-input[type=text], select, textarea {
-    width: 100%; /* Full width */
-    padding: 12px; /* Some padding */  
-    border: 1px solid #ccc; /* Gray border */
-    border-radius: 4px; /* Rounded borders */
-    box-sizing: border-box; /* Make sure that padding and width stays in place */
-    margin-top: 6px; /* Add a top margin */
-    margin-bottom: 16px; /* Bottom margin */
-    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
-  }
-  
-  /* Style the submit button with a specific background color etc */
-  input[type=submit] {
-    background-color: #4CAF50;
-    color: white;
-    padding: 12px 20px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-  }
-  
-  /* When moving the mouse over the submit button, add a darker green color */
-  input[type=submit]:hover {
-    background-color: #45a049;
-  }
-  
-  /* Add a background color and some padding around the form */
-  .container {
-    border-radius: 5px;
-    background-color: #f2f2f2;
-    padding: 20px;
-  }
